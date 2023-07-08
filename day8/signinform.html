@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign in form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- j-query -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- css -->
+    <style>
+        body{
+            height:100% ;
+            width: 100%;
+        }
+        .container{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20%;
+        }
+        h2{
+            margin-bottom: 2%;
+        }
+        .fontuser{
+            margin-top: 2%;
+        }
+        .fontpassword{
+            margin-bottom: 1%;
+        }
+        .sub{
+            margin-top: 1%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 >Sign in</h2>
+        <div class="fontuser">
+            <label><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uanme" required>
+            <i class="fa fa-user fa-lg"></i>
+        </div>
+        <div class="fontpassword">
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter password" name="password" required>
+            <i class="fa fa-kay fa-lg"></i>
+        </div><div>
+        <input type="checkbox" checked="checked">keep me logged in<br></div>
+        <button  class="sub" type="submit" style="background-color: rgb(53, 129, 165);">Login</button>
+        
+    </div>
+</body>
+</html>
